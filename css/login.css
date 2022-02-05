@@ -1,0 +1,84 @@
+body {
+	background-color: #FFF5D8;
+	color:#2c2c2c;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: center;
+	-webkit-text-size-adjust: 100%; /* iPhoneで起きるデザインの崩れ防止 */
+}
+
+.Tab_on_top{
+	position: fixed;
+	text-align: center;
+	top: 0;
+	background-color: #FFC55F;
+	left: 0;
+	right: 0;
+	height: 12vw;
+	border: solid;
+	border-color: #FFF;
+	margin-top: 0;
+
+}
+
+img#logo {
+	margin-top:10px;
+	width:480px;
+}
+
+input {
+	color:#2c2c2c;
+}
+
+input#login-button {
+	height: 70px;
+    width: 250px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 35px;
+    color:2c2c2c;
+    background-color:#73CBD0;
+    border-radius: 8px;
+	-webkit-appearance: none; /* iPhoneで起きるデザインの崩れ防止 */
+	-webkit-text-size-adjust: 100%;
+	margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+a:link {
+	color:#2c2c2c;
+	font-size: 35px;
+}
+
+h2 {
+    font-size: 65px;
+    margin-top: 13%;
+}
+
+input.username {
+	height: 6vw;	
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;	
+}
+
+input.password {
+	height: 6vw;	
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;		
+    margin-top: 2%;
+}
+
+div {
+	margin-top: 2%;
+}
+
+td {
+	font-size: 35px;
+}
+
+div.error {
+	font-size: 35px;
+	color: #EE635B;	
+}

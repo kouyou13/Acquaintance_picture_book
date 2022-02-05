@@ -1,0 +1,209 @@
+body {
+	background-color: #FFF5D8;
+	color: #2c2c2c;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: center;
+	-webkit-text-size-adjust: 100%; /* iPhone????????????? */
+}
+
+input#record {
+	height: 70px;
+    width: 200px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 35px;
+    color:2c2c2c;
+    background-color:#73CBD0;
+    border-radius: 8px;
+	-webkit-appearance: none; /* iPhone????????????? */
+	-webkit-text-size-adjust: 100%;
+	margin-top: 2%;
+}
+
+p.text-left {
+	text-align: left;
+	display: inline-block;
+}
+
+.Tab_on_top{
+	position: fixed;
+	text-align: center;
+	top: 0;
+	background-color: #FFC55F;
+	left: 0;
+	right: 0;
+	height: 12vw;
+	border: solid;
+	border-color: #FFF;
+	z-index: 1; /*????????? ???????????*/
+}
+
+img#logo {
+	margin-top:10px;
+	width:480px;
+}
+
+.return{ /*??????????? ????????*/
+	position: fixed;
+	text-align: center;
+	top: 0;
+	right: 0;
+	height: 10vw;
+	z-index: 2; /*????????? ???????????*/
+}
+
+input#return-button{
+	-webkit-appearance: none; /* iPhone????????????? */
+	-webkit-text-size-adjust: 100%;
+	height:70px;
+	width:200px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+    color:2c2c2c;
+    background-color:#73CBD0;
+	border-radius: 8px;
+}
+
+h2 {
+	font-size: 65px;
+	margin-top: 2%;
+}
+
+p {
+	font-size: 30px;
+}
+
+input#name {
+	height: 6vw;	
+	width: 22vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;
+}
+
+input#surname {
+	height: 6vw;	
+	width: 22vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+input#name_furigana {
+	height: 6vw;	
+	width: 22vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;
+}
+
+input#surname_furigana {
+	height: 6vw;	
+	width: 22vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+input#age {
+	height: 6vw;
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;	
+}
+
+input#job {
+	height: 6vw;	
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;	
+}
+
+input#remarks {
+	height: 6vw;	
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	border-radius: 8px;	
+}
+
+input#upload-btn {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size:30px;
+}
+
+label {
+	font-size:35px;
+	-webkit-appearance: none; /* iPhone????????????? */
+	-webkit-text-size-adjust: 100%;
+}
+
+input[type="radio" i] {
+	width:30px;
+	height:30px;
+}
+
+div.error {
+	font-size: 35px;
+	color: #EE635B;	
+}
+
+.table_record {
+	 text-align: left;
+	 margin-left: 5vw;
+	 margin-right: 5vw;
+	 border-collapse: collapse;	 
+}
+
+tr {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+/*input#file-upload-button {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}*/
+
+
+
+
+
+
+.formFile{
+	margin-bottom: 30px;
+}
+
+.formFile input[type="file"]{
+	display: none;
+}
+ 
+.formFile label{
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	padding: 2px 5px;
+	font-size: 12px;
+	letter-spacing: 0;
+	cursor: pointer;
+}
+ 
+.formFileName{
+	display: inline-block;
+	margin-left: 10px;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+}
+
+span.browse_btn{
+	border:1px solid #000;
+	background-color:#73CBD0;
+	border-radius: 8px;
+	border-color:#2c2c2c;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	-webkit-appearance: none; /* iPhone????????????? */
+	-webkit-text-size-adjust: 100%;
+}

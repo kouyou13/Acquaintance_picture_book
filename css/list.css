@@ -1,0 +1,185 @@
+.fixed_bottom .left_button {
+	position: fixed; /* 要素の位置を固定 */
+	left: 0;
+	bottom: 0; /* 基準の位置を画面の一番下に指定 */
+	width: 50vw; /* 横幅を画面の50%に指定 */
+	height: 12vw; /* 高さを画面の50%に指定 */
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 65px;
+}
+
+.fixed_bottom .right_button {
+	position: fixed; /* 要素の位置を固定 */
+	left: 50vw;
+	bottom: 0;
+	width: 50vw;
+	height: 12vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 65px;
+}
+
+.Tab_on_top{
+	position: fixed;
+	text-align: center;
+	top: 0;
+	background-color: #FFC55F;
+	left: 0;
+	right: 0;
+	height: 12vw;
+	border: solid;
+	border-color: #FFF;
+}
+
+img#logo {
+	margin-top:10px;
+	width:480px;
+}
+
+body {
+	background-color: #FFF5D8;
+	color: #2c2c2c;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	-webkit-text-size-adjust: 100%; /* iPhoneで起きるデザインの崩れ防止 */
+}
+
+input.left_button {
+	background-color: #FFC55F;
+	border-color: #FFF;
+	color: #2c2c2c;
+	-webkit-appearance: none; /* iPhoneで起きるデザインの崩れ防止 */
+	-webkit-text-size-adjust: 100%;
+}
+
+input.right_button {
+	background-color: #FFC55F;
+	border-color:#FFF;
+	color: #2c2c2c;
+	-webkit-appearance: none; /* iPhoneで起きるデザインの崩れ防止 */
+	-webkit-text-size-adjust: 100%;
+}
+
+h2 {
+	font-size: 65px;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+
+h3 {
+    font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 1vw;
+	display: inline;
+}
+
+p {
+    display: block;
+	margin-top: auto;
+}
+
+form {
+	margin-top: 5%;
+	text-align: center;	
+}
+
+input#search {
+    border-radius:8px;
+	height: 6vw;
+	width: 45vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 35px;
+	margin-bottom: 5%;
+}
+
+select {
+	height: 7vw;	
+	width: 20vw;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 25px;
+}
+
+#box{
+	margin: 1em 0;
+	padding: 1em;
+	border: double 5px #FFC55F;
+    width: 90%;
+    margin: 0 auto;
+	margin-bottom: 2%;
+    max-width: 900px;
+	display: flex;
+}
+
+div#text {
+    text-align: right;
+    font-size: 30px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+div#inner {
+	display: inline-block;
+    text-align: left;
+}
+
+img#image {
+	width: 300px;
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+	margin : 30px;
+	margin-top: 55px;
+}
+
+input#reseach_submit{
+	height: 70px;
+    width: 120px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    color:2c2c2c;
+    background-color:#73CBD0;
+    border-radius: 8px;
+	-webkit-appearance: none; /* iPhoneで起きるデザインの崩れ防止 */
+	-webkit-text-size-adjust: 100%;
+}
+
+a{
+	font-size: 2.5vw;
+}
+
+
+
+
+/*js追加部分*/
+/* modal */
+
+.modal-wrapper {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background: rgba(0,0,0,0.5);
+     pointer-events: none;
+     opacity: 0;
+     transition: 0.25s ease-out;
+}
+
+.modal-wrapper.show {
+     opacity: 1;
+     pointer-events: all;
+}
+
+.modal-image {
+     position: absolute;
+     /*max-width: 80%;
+     max-height: 80%;*/
+	 width: 75vw;
+	 height: 75vw;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     object-fit: cover;
+     opacity: 0;
+     transition: 0.5s ease-out;
+}
+
+.modal-image.show {
+     opacity: 1;
+}
